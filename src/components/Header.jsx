@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { Scrollspy } from "@makotot/ghostui";
-import { NavLink } from "react-router-dom";
-import { Link } from "react-router-dom";
+// import { Scrollspy } from "@makotot/ghostui";
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -25,13 +23,11 @@ const Header = () => {
         <nav className="container">
           <div className=" header-transparent">
             {/* Brand */}
-            <NavLink to="/">
-              <img
-                className="navbar-brand"
-                src="img/logo/logo-light.svg"
-                alt="brand logo"
+            <>
+              <div
+              
               />
-            </NavLink>
+            </>
             {/* / */}
             {/* Mobile Toggle */}
             <button
@@ -54,26 +50,20 @@ const Header = () => {
                   : "mobile-menu navbar-collapse justify-content-end"
               }
             >
-              <Link to="/" className="sidebar-logo">
-                <img src="img/logo/logo-light.svg" alt="brand" />
-              </Link>
-              <Scrollspy
+              <ul
                 className="anchor_nav navbar-nav ml-auto"
-                items={["home", "about", "services", "work", "blog", "contact"]}
-                currentClassName="current"
-                offset={-71}
-              >
-                <li>
+              > 
+               <li>
                   <a className="nav-link" href="#home" onClick={handleClick}>
                     <span>Home</span>
                   </a>
-                </li>
-                <li>
+                  </li>
+                <li onClick={handleClick}>
                   <a className="nav-link" href="#about" onClick={handleClick}>
                     <span>About Me</span>
                   </a>
                 </li>
-                <li>
+                <li onClick={handleClick}>
                   <a
                     className="nav-link"
                     href="#services"
@@ -82,22 +72,17 @@ const Header = () => {
                     <span>Services</span>
                   </a>
                 </li>
-                <li>
+                {/* <li onClick={handleClick}>
                   <a className="nav-link" href="#work" onClick={handleClick}>
                     <span>Portfolio</span>
                   </a>
-                </li>
-                <li>
-                  <a className="nav-link" href="#blog" onClick={handleClick}>
-                    <span>Blog</span>
-                  </a>
-                </li>
-                <li>
+                </li> */}
+                <li onClick={handleClick}>
                   <a className="nav-link" href="#contact" onClick={handleClick}>
                     <span>Contact</span>
                   </a>
                 </li>
-              </Scrollspy>
+              </ul>
               <button
                 className=" sidebar-bottom-closer"
                 type="button"
