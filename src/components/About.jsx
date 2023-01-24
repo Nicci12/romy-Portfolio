@@ -25,20 +25,19 @@ function About() {
               based in <span className="color-theme">South Africa</span>
             </h5>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              egestas leo, sit amet porta ex. Praesent mi ligula, bibendum et
-              velit eget, tempus maximus lorem. Donec fringilla, tortor vel
-              pretium aliquam, libero quam viverra dui, in tincidunt elit nulla
-              a erat. Sed vitae risus turpis. Nunc ullamcorper, nisi ut
-              tristique tincidunt, nibh eros tincidunt velit, quis varius augue
-              nisi sed justo. Morbi cursus tempus odio, eu accumsan justo auctor
-              quis.
+            I am a Counselling Psychologist who is committed to assisting clients in a holistic and meaningful way. 
+
+My therapeutic approach is integrative, taking into account the lived experiences of each individual; their sociocultural context, and their cognitive; emotional; behavioural; physiological; and interpersonal systems. 
+
+I believe that clients are the experts of their own lives, and my goal is to facilitate healing, growth, and resilience by drawing on an individual’s inner strengths and resources. It is my priority to select the best therapeutic approach that meets the subjective needs of my client.
+
+My areas of interest include, but are not limited to, gender and sexuality related challenges; depression; anxiety; trauma; bereavement and loss; adjustment and life transition difficulties; attachment difficulties, and identity struggles.
             </p>
             <div className="row about-list">
               <div className="col-md-6">
                 <div className="media">
-                  <label>Age</label>
-                  <p>26 Years Old</p>
+                  <label>Title</label>
+                  <p>Counselling Psychologist</p>
                 </div>
                 <div className="media">
                   <label>Residence</label>
@@ -46,7 +45,7 @@ function About() {
                 </div>
                 <div className="media">
                   <label>LinkedIn</label>
-                  <p>linked-In Adress</p>
+                  <p>linkedin.com/in/romy-dimant-738555178</p>
                 </div>
               </div>
               {/* End .col */}

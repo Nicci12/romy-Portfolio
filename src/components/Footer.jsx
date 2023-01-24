@@ -34,13 +34,10 @@ const Footer = () => {
         <div className="col-md-6 my-2 text-center text-md-right">
           <p>
             © {new Date().getFullYear()} copyright{" "}
-            <a
-              href="https://themeforest.net/user/ib-themes/portfolio"
-              target="_blank"
-              rel="noreferrer"
+            <span
             >
-              ib-themes
-            </a>
+              Nicci Dimant- Web Developer and Freelance
+            </span>
             all right reserved
           </p>
         </div>

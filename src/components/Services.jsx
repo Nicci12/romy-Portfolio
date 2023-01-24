@@ -9,36 +9,36 @@ const ServiceContent = [
     animationDealy: "",
   },
   {
-    icon: "ti-image",
-    title: "Graphic",
+    icon: "ti-heart-broken",
+    title: "Bereavment and Loss",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     animationDealy: "100",
   },
   {
-    icon: "ti-layout",
-    title: "Web Design",
+    icon: "ti-user",
+    title: "Gender and Sexuality",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     animationDealy: "200",
   },
   {
-    icon: "ti-brush-alt",
-    title: "Web Design",
+    icon: "ti-time",
+    title: "Adjustment and Life Transiton Difficulties",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     animationDealy: "300",
   },
   {
-    icon: "ti-camera",
-    title: "Photography",
+    icon: "ti-link",
+    title: "Attachment and Identity",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit`,
     animationDealy: "400",
   },
   {
     icon: "ti-world",
-    title: "Mobile apps",
+    title: "Depression, Anxiety, Trauma and Abuse",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     animationDealy: "500",

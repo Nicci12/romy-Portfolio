@@ -51,20 +51,26 @@ const Home = () => {
       </section>
       {/* End Skills */}
 
-      <section id="work" className="section gray-bg">
+      {/* <section id="work" className="section gray-bg">
         <div className="container">
           <div className="row justify-content-center section-title text-center">
             <div className="col-lg-7">
               <h3 className="font-alt">About me:</h3>
               <p>
-              I am Counselling Psychologist who holds a Masters Degree from the University of Johannesburg. I have been recipient of academic awards such as the Dean’s Merit List Award and the Golden Key International Honour Society for academic excellence in her postgraduate studies. My areas of interest and expertise include, but are not limited to: gender and sexuality; depression; anxiety; trauma and abuse; bereavement and loss; adjustment and life transition difficulties; attachment and identity. I adopt an integrative approach to therapy, taking to heart the lived experience of each individual. I believe my clients are the experts of their own lives, and her goal is to facilitate healing, growth, and resilience by drawing on their inner strengths and resources.
+              I am a Counselling Psychologist who is committed to assisting clients in a holistic and meaningful way. 
+
+My therapeutic approach is integrative, taking into account the lived experiences of each individual; their sociocultural context, and their cognitive; emotional; behavioural; physiological; and interpersonal systems. 
+
+I believe that clients are the experts of their own lives, and my goal is to facilitate healing, growth, and resilience by drawing on an individual’s inner strengths and resources. It is my priority to select the best therapeutic approach that meets the subjective needs of my client.
+
+My areas of interest include, but are not limited to, gender and sexuality related challenges; depression; anxiety; trauma; bereavement and loss; adjustment and life transition difficulties; attachment difficulties, and identity struggles.
               </p>
             </div>
           </div>
           {/* End .row */}
           {/* <Portfolio /> */}
-        </div>
-      </section>
+        {/* </div>
+      </section> */}
       {/* End Portfolio */}
 
       {/* <div className="section testimonial">
