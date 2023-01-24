@@ -20,7 +20,7 @@ const Header = () => {
     <>
       {/* Header */}
       <header className={navbar ? "main-header fixed-header" : "main-header"}>
-        <nav className="container">
+        <nav className="container-nav">
           <div className=" header-transparent">
             {/* Brand */}
             <>
