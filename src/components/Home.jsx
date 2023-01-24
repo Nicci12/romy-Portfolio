@@ -9,7 +9,7 @@ import Slider from "./Slider"
 import useDocumentTitle from "./useDocumentTitle";
 
 const Home = () => {
-  useDocumentTitle("Home Light Animation || React Personal Portfolio Template");
+  useDocumentTitle("Romy Portfolio");
   return (
     <>
       <Header />

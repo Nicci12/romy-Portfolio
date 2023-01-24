@@ -53,7 +53,7 @@ const Slider = () => {
                 <h1 className="font-alt">Romy Dimant</h1>
                 <h2>
                   <TextLoop>
-                    <span className="loop-text">Clinical Psycholist</span>
+                    <span className="loop-text">Counselling Psycholist</span>
                     <span className="loop-text">A Professional</span>
                     <span className="loop-text">A happy person</span>
                   </TextLoop>{" "}

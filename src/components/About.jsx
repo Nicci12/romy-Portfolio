@@ -1,5 +1,5 @@
 import React from "react";
-
+import Profile from '../assets/image/romy.jpeg'
 function About() {
   return (
     <>
@@ -9,7 +9,7 @@ function About() {
           data-aos="fade-up"
           data-aos-duration="1200">
           <div className="img-box">
-            <img src="img/about/about-4.jpg" alt="smiling a girl" />
+            <img src={Profile} alt="smiling a girl" />
           </div>
         </div>
 
@@ -21,7 +21,7 @@ function About() {
           <div className="typo-box about-me">
             <h3>Romy Dimant </h3>
             <h5>
-              A <span className="color-theme">Clinical Psychologist</span>
+              A <span className="color-theme">Counselling Psychologist</span>{" "}
               based in <span className="color-theme">South Africa</span>
             </h5>
             <p>
@@ -37,20 +37,16 @@ function About() {
             <div className="row about-list">
               <div className="col-md-6">
                 <div className="media">
-                  <label>Birthday</label>
-                  <p>4th april 1991</p>
-                </div>
-                <div className="media">
                   <label>Age</label>
-                  <p>22 Yr</p>
+                  <p>26 Years Old</p>
                 </div>
                 <div className="media">
                   <label>Residence</label>
-                  <p>Canada</p>
+                  <p>Johannesburg</p>
                 </div>
                 <div className="media">
-                  <label>Address</label>
-                  <p>California, USA</p>
+                  <label>LinkedIn</label>
+                  <p>linked-In Adress</p>
                 </div>
               </div>
               {/* End .col */}
@@ -63,10 +59,6 @@ function About() {
                 <div className="media">
                   <label>Phone</label>
                   <p>0823022471</p>
-                </div>
-                <div className="media">
-                  <label>LinkedIn</label>
-                  <p>linked-In Adress</p>
                 </div>
                 <div className="media">
                   <label>Appointments</label>

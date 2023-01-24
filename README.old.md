@@ -1,2 +1,2 @@
 # Romy-Portfolio
- Resume Portfolio for a clinical psychologist
+ Resume Portfolio for a counselling psychologist
