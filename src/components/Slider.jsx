@@ -51,9 +51,9 @@ const Slider = () => {
                 <h6>Hi There, I'm</h6>
                 <h1 className="font-alt">Romy Dimant</h1>
                 <h2>
-                    <span className="loop-text">Counselling Psycholist</span>
-                    <span className="loop-text">A Professional</span>
-                    <span className="loop-text">A happy person</span>
+                    <span className="loop-text">Counselling psychologist</span>
+                    {/* <span className="loop-text">A Professional</span>
+                    <span className="loop-text">A happy person</span> */}
                 </h2>
               </div>
             </div>
