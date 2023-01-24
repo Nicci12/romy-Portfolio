@@ -1,5 +1,4 @@
 import React from "react";
-import TextLoop from "react-text-loop";
 import Social from "./Social"
 
 const Slider = () => {
@@ -52,11 +51,9 @@ const Slider = () => {
                 <h6>Hi There, I'm</h6>
                 <h1 className="font-alt">Romy Dimant</h1>
                 <h2>
-                  <TextLoop>
                     <span className="loop-text">Counselling Psycholist</span>
                     <span className="loop-text">A Professional</span>
                     <span className="loop-text">A happy person</span>
-                  </TextLoop>{" "}
                 </h2>
               </div>
             </div>
