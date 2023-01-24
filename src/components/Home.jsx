@@ -33,9 +33,7 @@ const Home = () => {
             <div className="col-lg-7">
               <h3 className="font-alt">My Services</h3>
               <p>
-                I design and develop services for customers of all sizes,
-                specializing in creating stylish, modern websites, web services
-                and online stores.
+                My area's of intrest and expertise include but are not limited to:
               </p>
             </div>
           </div>
@@ -57,11 +55,9 @@ const Home = () => {
         <div className="container">
           <div className="row justify-content-center section-title text-center">
             <div className="col-lg-7">
-              <h3 className="font-alt">My Portfolio</h3>
+              <h3 className="font-alt">About me:</h3>
               <p>
-                I design and develop services for customers of all sizes,
-                specializing in creating stylish, modern websites, web services
-                and online stores.
+              I am Counselling Psychologist who holds a Masters Degree from the University of Johannesburg. I have been recipient of academic awards such as the Dean’s Merit List Award and the Golden Key International Honour Society for academic excellence in her postgraduate studies. My areas of interest and expertise include, but are not limited to: gender and sexuality; depression; anxiety; trauma and abuse; bereavement and loss; adjustment and life transition difficulties; attachment and identity. I adopt an integrative approach to therapy, taking to heart the lived experience of each individual. I believe my clients are the experts of their own lives, and her goal is to facilitate healing, growth, and resilience by drawing on their inner strengths and resources.
               </p>
             </div>
           </div>
@@ -79,7 +75,7 @@ const Home = () => {
       {/* End testimonial */}
 
       {/* Blog */}
-      <section id="blog" className="section gray-bg">
+      {/* <section id="blog" className="section gray-bg">
         <div className="container">
           <div className="row justify-content-center section-title text-center">
             <div className="col-lg-7">
@@ -93,8 +89,8 @@ const Home = () => {
           </div>
           {/* End .row */}
           {/* <Blog /> */}
-        </div>
-      </section>
+        {/* </div>
+      </section> */} 
       {/*  End Blog */}
 
       {/* Contact */}
@@ -120,10 +116,6 @@ const Home = () => {
                   data-aos-duration="1200"
                 >
                   <h4 className="font-alt">Get in touch</h4>
-                  <p>
-                    Always available for freelancing if the right project comes
-                    along, Feel free to contact me.
-                  </p>
                 </div>
 
                 <div
@@ -136,9 +128,10 @@ const Home = () => {
                     <i className="ti-map"></i>
                   </div>
                   <span className="media-body">
-                    123 Stree New York City , <br />
-                    United States Of America <br />
-                    NY 750065.
+                  Upper Grayston Office Park, Block B, 150 Linden Street, 
+                  Block B, <br />
+                  150 Linden Street, <br />
+                  Sandown
                   </span>
                 </div>
                 {/* End media */}
@@ -153,9 +146,7 @@ const Home = () => {
                     <i className="ti-email"></i>
                   </div>
                   <span className="media-body">
-                    support@domain.com
-                    <br />
-                    info@domain.com
+                    rdimant@gmail.com
                   </span>
                 </div>
                 {/* End media */}
@@ -170,9 +161,7 @@ const Home = () => {
                     <i className="ti-mobile"></i>
                   </div>
                   <span className="media-body">
-                    +044 966 9696 636
-                    <br />
-                    +044 966 9696 636
+                    +27 823022471
                   </span>
                 </div>
                 {/* End media */}
