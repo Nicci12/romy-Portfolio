@@ -143,7 +143,7 @@
       z-index: 99;
       transform: translateX(-100%);
       transition: 0.5s;
-      background: #1c1d24;
+      background: #b6bfc2;
       &.active {
         transform: translateX(0);
       }
@@ -202,14 +202,14 @@
       padding: 0;
     }
     .fixed-header & {
-      background: #1c1d24;
+      background: #6491bb;
     }
     .navbar {
       padding: 0;
     }
 
     .navbar-nav {
-      background: #1c1d24;
+      background: #6491bb;
       position: relative;
 
       > li {
@@ -228,7 +228,7 @@
       }
     }
     &.fixed-header {
-      border-bottom-color: #1c1d24;
+      border-bottom-color: #b6bfc2;
     }
   }
 }
@@ -261,14 +261,14 @@
   }
   @include down-md {
     .header-transparent {
-      background: #1c1d24;
+      background: #b6bfc2;
     }
   }
 }
 
 .fixed-header.main-header {
   .navbar-nav > li.current a {
-    color: #dc965a;
+    color:#c3d5e8;
   }
 }
 .sidebar-bottom-closer {
@@ -284,14 +284,14 @@
     color: #fff;
     border: none;
     width: 100%;
-    background: #dc965a;
+    background: #c3d5e8;
     font-size: 18px;
     z-index: 5;
     cursor: pointer !important;
     padding: 8px 5px;
     letter-spacing: 1px;
     &.dark-bg {
-      background: #333;
+      background: #f8f6f4;
     }
   }
   .mobile-menu {
