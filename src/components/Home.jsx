@@ -50,56 +50,6 @@ const Home = () => {
         </div>
       </section>
       {/* End Skills */}
-
-      {/* <section id="work" className="section gray-bg">
-        <div className="container">
-          <div className="row justify-content-center section-title text-center">
-            <div className="col-lg-7">
-              <h3 className="font-alt">About me:</h3>
-              <p>
-              I am a Counselling Psychologist who is committed to assisting clients in a holistic and meaningful way. 
-
-My therapeutic approach is integrative, taking into account the lived experiences of each individual; their sociocultural context, and their cognitive; emotional; behavioural; physiological; and interpersonal systems. 
-
-I believe that clients are the experts of their own lives, and my goal is to facilitate healing, growth, and resilience by drawing on an individual’s inner strengths and resources. It is my priority to select the best therapeutic approach that meets the subjective needs of my client.
-
-My areas of interest include, but are not limited to, gender and sexuality related challenges; depression; anxiety; trauma; bereavement and loss; adjustment and life transition difficulties; attachment difficulties, and identity struggles.
-              </p>
-            </div>
-          </div>
-          {/* End .row */}
-          {/* <Portfolio /> */}
-        {/* </div>
-      </section> */}
-      {/* End Portfolio */}
-
-      {/* <div className="section testimonial">
-        <div className="container">
-          <Testimonial />
-        </div>
-      </div> */}
-      {/* End testimonial */}
-
-      {/* Blog */}
-      {/* <section id="blog" className="section gray-bg">
-        <div className="container">
-          <div className="row justify-content-center section-title text-center">
-            <div className="col-lg-7">
-              <h3 className="font-alt">Recent articles</h3>
-              <p>
-                I design and develop services for customers of all sizes,
-                specializing in creating stylish, modern websites, web services
-                and online stores.
-              </p>
-            </div>
-          </div>
-          {/* End .row */}
-          {/* <Blog /> */}
-        {/* </div>
-      </section> */} 
-      {/*  End Blog */}
-
-      {/* Contact */}
       <section id="contact" className="section after-left-section">
         <div className="container">
           <div className="row align-items-center">
